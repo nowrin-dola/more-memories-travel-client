@@ -1,6 +1,6 @@
-import Button from '@restart/ui/esm/Button';
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+
+import React, {  useState } from 'react';
+
 
 const ManageOrder = ({order}) => {
     const {_id,tourId,name,email,address,phone,status,placeName}= order;
@@ -23,6 +23,8 @@ const ManageOrder = ({order}) => {
                 alert('Deleted successfully');
                 const remaining = orders.filter(order=> order._id !== id);
                 SetOrders(remaining);
+                window.location.reload(true);
+                
                             }
                      })
         }

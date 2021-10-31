@@ -17,6 +17,7 @@ const MyOrder = ({myOrder}) => {
                alert('Deleted Successfully')
             const remaining = orders.filter(order=> order._id !== id);
             setOrders(remaining);
+            window.location.reload(true);
            }
         })
         }

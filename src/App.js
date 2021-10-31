@@ -54,7 +54,6 @@ function App() {
           </PrivateRoute>
           <Route path='*'>
             <NotFound></NotFound>
-
           </Route>
 
 

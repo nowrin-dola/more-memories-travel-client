@@ -3,7 +3,7 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../Hooks/useAuth';
-import logo from '../../logo.png'
+import logo from '../../logo.png';
 
 import './Menubar.css';
 
@@ -20,7 +20,7 @@ const Menubar = () => {
                             width="30"
                             height="30"
                             className="d-inline-block align-top"
-                        />   More Memories Travel
+                        />  More Memories Travel
                         
                         </Navbar.Brand>
                     <Navbar.Toggle />

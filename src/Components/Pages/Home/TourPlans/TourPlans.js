@@ -4,14 +4,17 @@ import useAuth from '../../../Hooks/useAuth';
 import Tour from '../Tour/Tour';
 
 const TourPlans = () => {
+    const { isLoading} = useAuth();
     
     const [tours, setTours] = useState([]);
     useEffect(() => {
         fetch('https://frightful-hollow-73407.herokuapp.com/tours')
             .then(res => res.json())
-            .then(data => setTours(data));
+            .then(data => {
+                setTours(data)
+            });
     }, [])
-    const { isLoading} = useAuth();
+    
     if (isLoading) {
         return <Spinner className='m-5' animation="border" variant="dark" />
     }
