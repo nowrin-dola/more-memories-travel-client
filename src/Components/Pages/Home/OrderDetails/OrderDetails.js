@@ -30,8 +30,9 @@ const OrderDetails = () => {
   }
     
     return (
-       <div className="d-flex justify-content-center">     
-            <div className="col-lg-5  col-sm-12 col-md-12 m-2">
+      <div className='container'>
+          <div className="row row-cols-1 row-cols-lg-2 m-2">     
+            <div className="col-lg-5  col-sm-12 col-md-12 ">
                 <div className="card crd card-style mx-auto">
                     <img src={tour?.picture} className="card-img-top img-style" alt="..." />
                     <div className="card-body">
@@ -44,7 +45,7 @@ const OrderDetails = () => {
             </div>
            
     
-            <div className='add-service col-lg-7  col-sm-12 col-md-12 m-2'>
+            <div className='add-service col-lg-7 col-sm-12  col-md-12 '>
                 <h3 className="text-danger ">Order Details</h3>
                <form onSubmit={handleSubmit(onSubmit)} >
                <input
@@ -74,6 +75,7 @@ const OrderDetails = () => {
           </div>
        </div>
 
+      </div>
     );
 };
 
