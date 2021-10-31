@@ -11,7 +11,7 @@ const ManageAllOrders = () => {
     },[])
     return (
         <div>
-             <h3 className='fw-bold text-center text-primary mt-3'>Manage All Plans</h3>
+             <h3 className='fw-bold text-center text-primary mt-3'>Manage All Tours</h3>
 
               <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 m-5'>
                     {

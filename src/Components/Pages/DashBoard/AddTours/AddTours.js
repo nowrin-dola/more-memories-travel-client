@@ -25,7 +25,7 @@ const AddTours = () => {
     
     return (
         <div>
-            <h1 className="mt-5 text-center text-danger">Please Add Tours</h1>
+            <h1 className="mt-5 text-center text-danger">Please Add Tour Plan</h1>
             <div className="login-box w-50 m-auto mt-5">
         <div className="event-box border border d-flex justify-content-center align-items-center m-3">
           <div className="login-form ">
