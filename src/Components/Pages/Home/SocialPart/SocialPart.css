@@ -1,0 +1,37 @@
+
+.social-interact-main{
+
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 20px;
+    color: black;
+
+}
+.social-interact-main:hover{
+    
+    box-shadow: 10px 10px 30px rgb(73, 2, 52);}
+
+    .social-interact{
+        margin:50px;
+    }
+
+    @media only screen and (max-width:688px) {
+        
+        .social-interact{
+           margin: 0px;
+        }
+        .social-interact-main{
+
+            margin: 10px;
+            width:90%;
+            border-radius: 0px;
+            box-shadow: 0px;
+            
+        
+        }
+    
+    }
+   
+ 

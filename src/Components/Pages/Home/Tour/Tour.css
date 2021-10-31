@@ -1,0 +1,29 @@
+.card-style{
+    box-shadow: 4px 4px 7px rgb(90, 88, 88);
+    background-color:rgb(224, 243, 247);
+    border: 1px 5px 5px solid rgb(230, 238, 216);
+
+    
+    height: 550px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+   
+   
+
+}
+@media only screen and (max-width:688px) {
+    .card-style{
+        
+        height: 630px;
+        width: 250px;
+        
+    }
+    
+}
+
+
+
+
+.img-style{
+    height: 250px ;
+}
